@@ -1,7 +1,7 @@
 var myModule = angular.module("Hello",[]);
 
 myModule.controller("HelloAngular",['$scope',
-function HelloAngular($scope){
+function($scope){
   $scope.greeting = {
     text: 'Hello'
   };
